@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.item-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.items-container {
+  margin-top: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.items-container h1 {
+  margin-bottom: 15px;
+}
+
+.items-container input[type="text"] {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 5px;
+  height: 37px;
+}
+
+.checkbox-item {
+  margin: 2px;
+  cursor: pointer;
+}
+
+.item-texto {
+  margin-right: 10px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 15px;
+}
+
+.btn-remover-item {
+  all: unset;
+  padding-top: 6px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: palevioletred;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 600px;
+  border: black 2px solid;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.textTopBar {
+  color: black;
+  background-color: #f2c1cd;
+  width: 100%;
+  height: 36px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border: 1px solid #df435e;
+  outline: none;
+}
+
+.submitTopBar {
   color: white;
+  background-color: #df435e;
+  height: 36px;
+  width: 70px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-style: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-marcar-todos {
+  color: white;
+  font-size: 16px;
+  background-color: #df435e;
+  height: 36px;
+  width: 370px;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+  margin-top: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-container form {
+  display: flex;
 }
