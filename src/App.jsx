@@ -42,16 +42,16 @@ function App() {
     <div className="app-container">
       <div className="form-container">
         <form>
-          <label>
+          <label className="label-container">
             <input
-              className="textTopBar"
+              className="top-input"
               type="text"
               value={state}
               onChange={handleChange}
             />
           </label>
           <input
-            className="submitTopBar"
+            className="btn-submit"
             onClick={handleSubmit}
             type="submit"
             value="Submit"
