@@ -30,7 +30,7 @@ function Item(props) {
       />
       <div className="item-texto">{props.nombre}</div>
       <button onClick={manejadorDeClick} className="btn-remover-item">
-        Remover
+        <i class="far fa-trash-alt"></i>
       </button>
     </div>
   );
