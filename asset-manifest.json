@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/myjetsetter/static/css/main.484df703.chunk.css",
-    "main.js": "/myjetsetter/static/js/main.316dbb59.chunk.js",
-    "main.js.map": "/myjetsetter/static/js/main.316dbb59.chunk.js.map",
+    "main.css": "/myjetsetter/static/css/main.88e7cc40.chunk.css",
+    "main.js": "/myjetsetter/static/js/main.9d73bae6.chunk.js",
+    "main.js.map": "/myjetsetter/static/js/main.9d73bae6.chunk.js.map",
     "runtime-main.js": "/myjetsetter/static/js/runtime-main.8e65b22d.js",
     "runtime-main.js.map": "/myjetsetter/static/js/runtime-main.8e65b22d.js.map",
     "static/js/2.6733ba12.chunk.js": "/myjetsetter/static/js/2.6733ba12.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.8f1efbfa.chunk.js": "/myjetsetter/static/js/3.8f1efbfa.chunk.js",
     "static/js/3.8f1efbfa.chunk.js.map": "/myjetsetter/static/js/3.8f1efbfa.chunk.js.map",
     "index.html": "/myjetsetter/index.html",
-    "static/css/main.484df703.chunk.css.map": "/myjetsetter/static/css/main.484df703.chunk.css.map",
+    "static/css/main.88e7cc40.chunk.css.map": "/myjetsetter/static/css/main.88e7cc40.chunk.css.map",
     "static/js/2.6733ba12.chunk.js.LICENSE.txt": "/myjetsetter/static/js/2.6733ba12.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8e65b22d.js",
     "static/js/2.6733ba12.chunk.js",
-    "static/css/main.484df703.chunk.css",
-    "static/js/main.316dbb59.chunk.js"
+    "static/css/main.88e7cc40.chunk.css",
+    "static/js/main.9d73bae6.chunk.js"
   ]
 }
